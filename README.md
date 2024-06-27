@@ -15,8 +15,8 @@ Why get your hands bloody when you can use ClipCrop to handle your dirty busines
 
 
 ## Abstract
-Tired of the limitations of mobile video editors that only let you crop one interval? Look no further! ClipCrop is here to save the day. This Python script automates the tedious task of cropping multiple intervals from your videos effortlessly. No need to fuss with downloading multiple apps just to handle basic video editing tasks. Embrace the coder's way of life and revel in the joy of automation with ClipCrop! Because let's face it, why manually crop when you can automate and get back to the important things in life? 😉
 
+Are you stuck with mobile video editors that only let you crop one interval at a time? Ridiculous, right? Introducing ClipCrop, (hey apple maybe take notes?) the Python script that laughs in the face of such limitations. This tool automates the mundane task of cropping multiple intervals from your videos effortlessly. No more juggling multiple apps just to perform basic video edits. Embrace the coder's way of life and revel in the joy of automation with ClipCrop! Because seriously, who wants to waste time on manual cropping when you can automate and get back to the good stuff? 😉
 
 ## File Structure
 
