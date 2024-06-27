@@ -1,6 +1,11 @@
 # ClipCrop
 ClipCrop is a Python script that automates the process of cropping specified intervals from your videos, because why spend 5 minutes manually when you can enjoy an hour of coffee-fueled coding bliss?
 
+![Scissor cutting video](https://gifdb.com/images/high/blood-streak-edward-scissorhands-y99i08vnmaxfsuj5.webp)
+
+
+Why get your hands bloody when you can use ClipCrop to handle your dirty business (no, I'm not being dramatic, manual work is my pet peeve)
+
 
 - [Abstract](#abstract)
 - [File Structure](#file-structure)
