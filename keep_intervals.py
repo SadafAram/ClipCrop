@@ -24,7 +24,7 @@ def keep_intervals(video_path, intervals, output_path):
     # Concatenate the edited clips
     final_clip = concatenate_videoclips(edited_clips, method="compose")
 
-    # Get the complement clip (original video - kept intervals)
+    # Get the complement clip (kept intervals)
     original_clip = concatenate_videoclips([video_clip.subclip(0, edited_clips[0].start)] +
                                            [video_clip.subclip(edited_clips[i].end, edited_clips[i+1].start)
                                             for i in range(len(edited_clips)-1)] +
@@ -33,8 +33,8 @@ def keep_intervals(video_path, intervals, output_path):
     # Write the final edited video to a file with the correct fps
     final_clip.write_videofile(output_path, codec="libx264", audio_codec="aac", fps=fps)
 
-video_path = "/content/drive/MyDrive/Python_1.mp4"  # Update with your file path in Colab
-output_path = "/content/drive/MyDrive/Python_1_edited.mp4"
+video_path = "/path/to/your/file"  # Update with your file path
+output_path = "/path/to/your/file" #Update with the path you want the cropped video to be saved in
 
 # Specify intervals to be kept [(start_time_1, end_time_1), (start_time_2, end_time_2), ...]
 intervals_to_keep =  [ ("00:06:13","00:18:50"),("00:31:33","00:40:00"),("00:41:52","00:57:00"),("00:58:30","01:30:50"),("01:31:46","01:46:47"),("01:47:50","02:11:17"),("02:16:54" ,"02:22:48"),("02:29:47","02:35:50")]
